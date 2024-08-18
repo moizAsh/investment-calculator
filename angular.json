@@ -59,12 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "investment-calculator:build:production",
-              "port": 8080   
+              "buildTarget": "investment-calculator:build:production"          
             },
             "development": {
-              "buildTarget": "investment-calculator:build:development",
-              "port": 8080   
+              "buildTarget": "investment-calculator:build:development"              
             }
           },
           "defaultConfiguration": "development"
