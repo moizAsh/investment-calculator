@@ -27,7 +27,9 @@ jobs:
           npm cache clean --force
 
       - name: Install dependencies
-        run: npm ci
+        run: |
+              npm ci
+              dir node_modules
 
       - name: npm install, build, and test
         run: |
